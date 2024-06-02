@@ -16,7 +16,7 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
   
     // Здесь твой код
-    fetch(`https://github.com/hfgryegvb`, {
+    fetch(`https://polinashneider.space/user`, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -49,7 +49,7 @@ form.addEventListener("submit", (event) => {
   
   
   
-  fetch(`https://github.com/hfgryegvb`, {
+  fetch(`https://polinashneider.space/user`, {
     headers: {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer: hfgryegvb'
